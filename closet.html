@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Eve's Closet: Make Trade</title>
+        <style>
+            body {
+                background-color:mistyrose;
+            }
+            .contain {
+                width:1200px;
+            }
+            #div1, #div2 {
+                display:inline;
+                float:left;
+                width:500px;
+                margin:10px;
+                padding:10px;
+                border: 1px solid black;
+            }
+        </style>
+        <script>
+            function allowDrop(ev) {
+                ev.preventDefault();
+            }
+            function drag(ev) {
+                ev.dataTransfer.setData("text", ev.target.id);
+            }
+            function drop(ev) {
+                ev.preventDefault();
+                var data = ev.dataTransfer.getData("text");
+                ev.target.appendChild(document.getElementById(data));
+            }
+        </script>
+    </head>
+        <body>
+            <div class="contain">
+                <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+                    <img src="pinkdress.png" alt="pink dress" draggable="true" ondragstart="drag(event)" id="dragtarget" width="500">
+                </div>
+                <div id="div2" ondrop="drop(event)" ondragvoer="allowDrop(event)">
+                    <img src="eve.png" alt="eve" width="500">
+                </div>
+            </div>
+        </body>
+</html>

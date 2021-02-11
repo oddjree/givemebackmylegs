@@ -1,0 +1,51 @@
+body{
+    background-color:black;
+}
+.adamandeves1 {
+    position: absolute;
+    margin-left:100px;
+    margin-right:100px;
+    z-index: 100;
+    width:396px;
+    height:612px;
+}
+.adamandeves2 {
+    margin-left:550px;
+    margin-right:8px;
+    position: absolute;
+    z-index: 100;
+    width:396px;
+    height:612px;
+}
+.adamandeves21 {
+    margin-left:550px;
+    margin-right:8px;
+    position: absolute;
+    z-index: 90;
+    width:396px;
+    height:612px;
+}
+.mrg2 {
+    margin-left:550px;
+    margin-right:8px;
+    position: absolute;
+    width:396px;
+    height:612px;
+}
+.mrg1 {
+    margin-right:100px;
+    margin-left:100px;
+    position: absolute;
+    width:396px;
+    height:612px;
+}
+img{
+    margin-top:50px;
+}
+.container {
+    width:1200px;
+
+}
+.drawer{
+    height: 700px;
+}
