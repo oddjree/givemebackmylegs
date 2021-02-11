@@ -1,14 +1,14 @@
-/*global require*/
+s/*global require*/
 /*eslint-env es6*/
 window.onload = E20;
 
 var eve20 = new Array (
-    "20e1.png",
-    "20e2.png",
-    "20e3.png",
-    "20e4.png",
-    "20e5.png",
-    "20e6.png"
+    "/adamsandeves/20e1.png",
+    "/adamsandeves/20e2.png",
+    "/adamsandeves/20e3.png",
+    "/adamsandeves/20e4.png",
+    "/adamsandeves/20e5.png",
+    "/adamsandeves/20e6.png"
 );
 
 var adam20 = new Array (
