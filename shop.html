@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Shop</title>
+        <style>
+            body {background-color:mistyrose;}
+            .contain {
+                width:1200px;
+            }
+            .banner {
+                width: 1000px;
+                height: 120px;
+                background-image:linear-gradient(to bottom, pink, lightpink);
+                margin-left:auto;
+                margin-right:auto;
+                margin-top: 30px;
+                text-align:center;
+                font-size:70px;
+                padding-top:40px;
+                color:seashell;
+            }
+            .column {
+                float:left;
+                padding: 10px;
+                width: 100px;
+            }
+            .button:hover {
+                border: 1px solid #F65489;
+                box-shadow: 1px 1px 8px coral;
+            }
+            .model {
+                width:450px;
+                height:300px;
+                margin-left:100px;
+                margin-right:auto;
+                margin-top:15px;
+            }
+            .shopping {
+                width:525px;
+                height:300px;
+                margin-left:auto;
+                margin-right:100px;
+                margin-top: -300px;
+                float:right;
+                color:maroon;
+            }
+            p{
+                font-size:18px;
+            }
+            .makepay {
+                background-color:pink;
+                color:seashell;
+                font-size:18px;
+                border: 2px solid palevioletred;
+                margin-right:10px;
+                text-decoration:none;
+            }
+       
+        </style>
+    </head>
+    <body>
+        <div class="contain">
+            <div class="banner">Welcome to Eve's Shop!
+            </div>
+            <div class="model">
+            <div class="column">
+                <input type="image" src="model1.jpg" alt="front" width="100" height="auto" class="button" onclick="document.getElementById('model').src='model1.jpg'">
+                <input type="image" src="model2.jpg" alt="back" width="100" height="auto" class="button" onclick="document.getElementById('model').src='model2.jpg'">
+            </div>
+            <img id="model"
+                 src="model1.jpg"
+                 style="width:300px">
+            </div>
+            
+            <div class="shopping">
+                <h2>Eve's Leaf Dress</h2>
+                <h3>Product Details:</h3>
+                <p>This unique dress was made over 2000 years ago! Add this gently used vintage dress to your collection for warm summer days and casual trips to the beach. Eve is accepting payment or trades for this one-of-a-kind piece! Make your offer: </p>
+                
+                <form id="payment" style="display:none">
+                    <label for="price">I Will Pay:</label><br>
+                    <input type="text"><br>
+                    <input type="submit" value="submit">
+                </form>
+                
+                <a type="button" class="makepay" onclick="document.getElementById('payment').style.display='block'">Make Payment</a>
+                
+                <a class="makepay" href="evescloset.html">Make Trade</a>
+                <a class="makepay" href="sorry.html">This Dress Is Ugly</a>
+                
+            </div>
+            
+            
+        
+        </div>
+    </body>
+
+
+</html>
