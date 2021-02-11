@@ -1,59 +1,59 @@
-s/*global require*/
+/*global require*/
 /*eslint-env es6*/
 window.onload = E20;
 
 var eve20 = new Array (
-    "/adamsandeves/20e1.png",
-    "/adamsandeves/20e2.png",
-    "/adamsandeves/20e3.png",
-    "/adamsandeves/20e4.png",
-    "/adamsandeves/20e5.png",
-    "/adamsandeves/20e6.png"
+    "adamsandeves/20e1.png",
+    "adamsandeves/20e2.png",
+    "adamsandeves/20e3.png",
+    "adamsandeves/20e4.png",
+    "adamsandeves/20e5.png",
+    "adamsandeves/20e6.png"
 );
 
 var adam20 = new Array (
-    "20a1.png",
-    "20a2.png",
-    "20a3.png",
-    "20a4.png",
-    "20a5.png",
-    "20a6.png"
+    "adamsandeves/20a1.png",
+    "adamsandeves/20a2.png",
+    "adamsandeves/20a3.png",
+    "adamsandeves/20a4.png",
+    "adamsandeves/20a5.png",
+    "adamsandeves/20a6.png"
 );
 
 var eve21 = new Array (
-    "21Esw.png",
-    "21Esa.png",
-    "21Esb.png",
-    "21Efw.png",
-    "21Efa.png",
-    "21Efb.png"
+    "adamsandeves/21Esw.png",
+    "adamsandeves/21Esa.png",
+    "adamsandeves/21Esb.png",
+    "adamsandeves/21Efw.png",
+    "adamsandeves/21Efa.png",
+    "adamsandeves/21Efb.png"
 );
 
 var adam21 = new Array (
-    "21Asw.png",
-    "21Asa.png",
-    "21Asb.png",
-    "21Afw.png",
-    "21Afa.png",
-    "21Afb.png"
+    "adamsandeves/21Asw.png",
+    "adamsandeves/21Asa.png",
+    "adamsandeves/21Asb.png",
+    "adamsandeves/21Afw.png",
+    "adamsandeves/21Afa.png",
+    "adamsandeves/21Afb.png"
 );
 
 var eve23 = new Array (
-    "23Esw.png",
-    "23Efw.png",
-    "23Esa.png",
-    "23Efa.png",
-    "23Esb.png",
-    "23Efb.png"
+    "adamsandeves/23Esw.png",
+    "adamsandeves/23Efw.png",
+    "adamsandeves/23Esa.png",
+    "adamsandeves/23Efa.png",
+    "adamsandeves/23Esb.png",
+    "adamsandeves/23Efb.png"
 );
 
 var adam23 = new Array (
-    "23Asw.png",
-    "23Afw.png",
-    "23Asa.png",
-    "23Afa.png",
-    "23Asb.png",
-    "23Afb.png"
+    "adamsandeves/23Asw.png",
+    "adamsandeves/23Afw.png",
+    "adamsandeves/23Asa.png",
+    "adamsandeves/23Afa.png",
+    "adamsandeves/23Asb.png",
+    "adamsandeves/23Afb.png"
 );
 
 function E20() {
