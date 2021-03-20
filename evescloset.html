@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Eve's Closet Please Work</title>
-        <link rel="stylesheet" href="evescloset.css">
+        <title>Eve's Closet</title>
+        <link rel="stylesheet" href="css/evescloset.css">
+        <meta charset="utf-8">
     </head>
     <body>
         <div class="contain">
@@ -280,6 +281,7 @@
                 <img id="otop" class="clothesoneve" src="images/blank.png" alt="blue cami" width=450px position="absolute">
             <!--EVE-->
                 <img src="images/eveforcloset.png" 
+                    id="eveForCloset"
                     alt="eve"
                     width=450px
                     position="relative"
@@ -292,5 +294,23 @@
                     onClick="window.location.reload();">Ew! It's so ugly...</button>
 
         </div>
+
+        <script>
+          window.onload = evesCloset;
+
+          let eveFat = new Array (
+            'images/eveforcloset.png',
+            'images/esaforcloset.png',
+            'images/esbforcloset.png',
+            )
+
+          function evesCloset() {
+            var randomNum = Math.floor(Math.random() * eveFat.length);
+            document.getElementById("eveForCloset").src = eveFat[randomNum];
+          }
+
+
+
+        </script>
     </body>
 </html>

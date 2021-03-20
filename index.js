@@ -38,6 +38,24 @@ var adam21 = new Array (
     "adamsandeves/21Afb.png"
 );
 
+var eve22 = new Array (
+    "adamsandeves/22esw.png",
+    "adamsandeves/22efw.png",
+    "adamsandeves/22esa.png",
+    "adamsandeves/22efa.png",
+    "adamsandeves/22esb.png",
+    "adamsandeves/22efb.png"
+    );
+
+var adam22 = new Array (
+    "adamsandeves/22asw.png",
+    "adamsandeves/22afw.png",
+    "adamsandeves/22asa.png",
+    "adamsandeves/22afa.png",
+    "adamsandeves/22asb.png",
+    "adamsandeves/22afb.png"
+    );
+
 var eve23 = new Array (
     "adamsandeves/23Esw.png",
     "adamsandeves/23Efw.png",
@@ -56,6 +74,42 @@ var adam23 = new Array (
     "adamsandeves/23Afb.png"
 );
 
+var eve24 = new Array (
+    "adamsandeves/24esw.png",
+    "adamsandeves/24efw.png",
+    "adamsandeves/24esa.png",
+    "adamsandeves/24efa.png",
+    "adamsandeves/24esb.png",
+    "adamsandeves/24efb.png",
+    );
+
+var adam24 = new Array (
+    "adamsandeves/24asw.png",
+    "adamsandeves/24afw.png",
+    "adamsandeves/24asa.png",
+    "adamsandeves/24afa.png",
+    "adamsandeves/24asb.png",
+    "adamsandeves/24afb.png",
+    );
+
+var eve25 = new Array (
+    "adamsandeves/25esw.png",
+    "adamsandeves/25efw.png",
+    "adamsandeves/25esa.png",
+    "adamsandeves/25efa.png",
+    "adamsandeves/25esb.png",
+    "adamsandeves/25efb.png",
+    );
+
+var adam25 = new Array (
+    "adamsandeves/25asw.png",
+    "adamsandeves/25afw.png",
+    "adamsandeves/25asa.png",
+    "adamsandeves/25afa.png",
+    "adamsandeves/25asb.png",
+    "adamsandeves/25afb.png",
+    );
+
 function E20() {
     var randomNum = Math.floor(Math.random() * eve20.length);
     document.getElementById("eveTwenty").src = eve20[randomNum];
@@ -68,12 +122,30 @@ function E20() {
     
     var randomNum = Math.floor(Math.random() * adam21.length);
     document.getElementById("adamTwentyOne").src = adam21[randomNum];
+
+    var randomNum = Math.floor(Math.random() * eve22.length);
+    document.getElementById("eveTwentyTwo").src = eve22[randomNum];
+
+    var randomNum = Math.floor(Math.random() * adam22.length);
+    document.getElementById("adamTwentyTwo").src = adam22[randomNum];
     
     var randomNum = Math.floor(Math.random() * adam23.length);
     document.getElementById("adamTwentyThree").src = adam23[randomNum];
     
     var randomNum = Math.floor(Math.random() * eve23.length);
     document.getElementById("eveTwentyThree").src = eve23[randomNum];
+
+    var randomNum = Math.floor(Math.random() * adam24.length);
+    document.getElementById("adamTwentyFour").src = adam24[randomNum];
+    
+    var randomNum = Math.floor(Math.random() * eve24.length);
+    document.getElementById("eveTwentyFour").src = eve24[randomNum];
+
+    var randomNum = Math.floor(Math.random() * adam25.length);
+    document.getElementById("adamTwentyFive").src = adam25[randomNum];
+    
+    var randomNum = Math.floor(Math.random() * eve25.length);
+    document.getElementById("eveTwentyFive").src = eve25[randomNum];
 }
 
 
