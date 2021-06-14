@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Shop</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/shop.css">
+
+    </head>
+    <body>
+        <div class="contain">
+            <div class="banner">Welcome to Eve's Shop!
+            </div>
+            <div class="model">
+            <div class="column">
+                <input type="image" src="images/model1.jpg" alt="front" width="75" height="auto" class="button" onclick="document.getElementById('model').src='images/model1.jpg'">
+                <input type="image" src="images/model2.jpg" alt="back" width="75" height="auto" class="button" onclick="document.getElementById('model').src='images/model2.jpg'">
+                <input type="image" src="images/model3.jpg" alt="front" width="75" height="auto" class="button" onclick="document.getElementById('model').src='images/model3.jpg'">
+                <input type="image" src="images/model4.jpg" alt="back" width="75" height="auto" class="button" onclick="document.getElementById('model').src='images/model4.jpg'">
+            </div>
+            <img id="model"
+                 src="images/model1.jpg"
+                 style="width:300px">
+            </div>
+            
+            <div class="shopping">
+                <h2>Eve's Leaf Dress</h2>
+                <h3>Product Details:</h3>
+                <p>This unique dress was made over 2000 years ago! Add this gently used vintage dress to your collection for warm summer days and casual trips to the beach. Eve is accepting payment or trades for this one-of-a-kind piece! Make your offer: </p>
+                
+ 
+                
+                
+
+                <form id="payment" style="display:none">
+                    <label for="price">I Will Pay:</label><br>
+                    <input type="text"><br>
+                    <input type="submit" value="submit">
+                </form>
+                <a type="button" class="makepay" onclick="document.getElementById('payment').style.display='block'">Make Payment</a>
+                <a class="makepay" href="sorry/index.html">This Dress Is Ugly</a>
+                <div class="dropdown">
+                    <button class='dropbutton'>Make Trade</button>
+                    <a class="dropcontent" href="evescloset.html">size small</a>
+                    <a class="dropcontent" href="evesclosetf.html">size large</a>
+                </div>
+
+            
+        
+        </div>
+    </body>
+
+
+</html>

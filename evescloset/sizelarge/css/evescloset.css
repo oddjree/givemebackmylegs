@@ -1,0 +1,70 @@
+body {
+    background-color:mistyrose;
+}
+button {
+    margin-left:100px;
+    margin-top: 20px;
+    background-color:pink;
+    color:seashell;
+    font-size:18px;
+    border: 2px solid palevioletred;
+    margin-right:10px;
+    text-decoration:none;
+}
+.contain {
+    width:1200px;
+    background-color:mistyrose;
+}
+.closet {
+    float:left;
+    overflow-x: hidden;
+    overflow-y:scroll;
+    width:500px;
+    height: 700px;
+    margin-left:80px;
+    position:relative;
+}
+.drawer {
+    overflow-x: scroll;
+    overflow-y:auto;
+    white-space: nowrap;
+    width: 450px;
+    margin-left: 30px;
+    position: absolute;
+}
+#pants {
+    position: absolute;
+    margin-top: 50px;
+}
+#dress {
+    position: absolute;
+    margin-top: 300px;
+}
+#under {
+    position: absolute;
+    margin-top: 550px;
+}
+#over {
+    position: absolute;
+    margin-top: 750px;
+}
+.eve {
+    border: 1px solid maroon;
+    width:500px;
+    float:right;
+    margin-right:80px;
+    background-image:linear-gradient(to bottom, pink, lightpink);
+    position: relative;
+}
+.outfits:hover {
+    border: 1px solid lightblue;
+    box-shadow: 1px 1px 8px darkblue;
+}
+.clothesoneve {
+    position:absolute;
+    padding-top:40px;
+
+}
+#boa {
+    position:absolute;
+}
